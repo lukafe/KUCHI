@@ -1,0 +1,18 @@
+{
+  "name": "smartscroll-ad",
+  "version": "1.0.0",
+  "description": "SmartScroll educational app - Instagram/Facebook ad video",
+  "scripts": {
+    "start": "npx remotion preview",
+    "render": "npx remotion render src/index.ts Video out/smartscroll-ad.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.441",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "^4.0.441",
+    "typescript": "^5.8.3"
+  }
+}
